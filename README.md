@@ -1,4 +1,6 @@
-# Dr. Echo – AI Assisted Reporting System for Radiology
+<img width="2000" height="600" alt="GitHub Banner - Dr  Echo" src="https://github.com/user-attachments/assets/640a6bce-0a9e-44a2-a0ec-7db2ece007d4" />
+
+ Dr. Echo – AI Assisted Reporting System for Radiology
 
 ## Project Overview
 
