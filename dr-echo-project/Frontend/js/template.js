@@ -121,49 +121,49 @@ function getTemplatePreview(templateId) {
         `,
 
         'breast-mammography': `
-            <div class="template-preview">
-                <h3>BREAST MAMMOGRAPHY REPORT</h3>
+            <div class="template-preview template-preview-breast">
+                <div class="preview-header">
+                    <h3>BREAST MAMMOGRAPHY REPORT</h3>
+                    <p class="preview-subtitle">Structured preview aligned with the Breast Mammography template sections.</p>
+                </div>
+
                 <div class="preview-section">
                     <h4>1. Patient Information</h4>
-                    <p><strong>Patient Name:</strong> [Patient Name]</p>
-                    <p><strong>Date of Birth / Age / Sex:</strong> [DOB] / [Age] / [Sex]</p>
-                    <p><strong>Patient ID / Report ID:</strong> [Patient ID] / [Report ID]</p>
-                    <p><strong>Referring Physician / Institution:</strong> [Referrer] / [Institution]</p>
-                    <p><strong>Report Date & Time:</strong> [Date & Time]</p>
+                    <div class="preview-row"><span class="preview-label">Patient Name</span><span class="preview-value">[Patient Name]</span></div>
+                    <div class="preview-row"><span class="preview-label">Date of Birth / Age / Sex</span><span class="preview-value">[DOB] / [Age] / [Sex]</span></div>
+                    <div class="preview-row"><span class="preview-label">Patient ID / Report ID</span><span class="preview-value">[Patient ID] / [Report ID]</span></div>
+                    <div class="preview-row"><span class="preview-label">Referring Physician / Institution</span><span class="preview-value">[Referrer] / [Institution]</span></div>
+                    <div class="preview-row"><span class="preview-label">Report Date & Time</span><span class="preview-value">[Date & Time]</span></div>
                 </div>
 
                 <div class="preview-section">
                     <h4>2. Procedure Information</h4>
-                    "..."
                 </div>
 
                 <div class="preview-section">
                     <h4>3. Clinical Information</h4>
-                    "..."
                 </div>
 
                 <div class="preview-section">
                     <h4>4. Comparison</h4>
-                    "..."
-                    <p><strong>Comparison Remarks:</strong> [Free text]</p>
+                    <div class="preview-row"><span class="preview-label">Comparison Remarks</span><span class="preview-value">[Free text]</span></div>
                 </div>
 
                 <div class="preview-section">
                     <h4>5. Findings</h4>
-                    "..."
                 </div>
 
                 <div class="preview-section">
                     <h4>6. Impression</h4>
-                    <p><strong>Impression Summary:</strong> [Concise diagnostic summary]</p>
-                    <p><strong>Recommendation / Follow-up:</strong> [Suggested next step]</p>
+                    <div class="preview-row"><span class="preview-label">Impression Summary</span><span class="preview-value">[Concise diagnostic summary]</span></div>
+                    <div class="preview-row"><span class="preview-label">Recommendation / Follow-up</span><span class="preview-value">[Suggested next step]</span></div>
                 </div>
 
                 <div class="preview-section">
                     <h4>7. Report Summary & Sign-off</h4>
-                    <p><strong>Exam Conclusion:</strong> [Final conclusion]</p>
-                    <p><strong>Report Created by:</strong> [Radiologist Name]</p>
-                    <p><strong>Approved by:</strong> [Approver Name]</p>
+                    <div class="preview-row"><span class="preview-label">Exam Conclusion</span><span class="preview-value">[Final conclusion]</span></div>
+                    <div class="preview-row"><span class="preview-label">Report Created by</span><span class="preview-value">[Radiologist Name]</span></div>
+                    <div class="preview-row"><span class="preview-label">Approved by</span><span class="preview-value">[Approver Name]</span></div>
                 </div>
             </div>
         `
