@@ -159,15 +159,6 @@ body {
     color: #7B1FA2;
 }
 
-.badge-xray {
-    background: #FFF3E0;
-    color: #F57C00;
-}
-
-.badge-ultrasound {
-    background: #E8F5E9;
-    color: #388E3C;
-}
 
 /* Buttons */
 .btn-icon {
@@ -217,10 +208,6 @@ body {
     color: white;
 }
 
-.load-more {
-    text-align: center;
-    margin: 40px 0;
-}
 
 /* Modal */
 .modal {
@@ -283,7 +270,7 @@ body {
 
 
 .preview-body {
-    background: #E3F2FD;
+    background: #F5F9FB;
     padding: 30px;
     border-radius: 10px;
     margin: 20px 0;
@@ -414,6 +401,15 @@ body {
     .preview-row {
         grid-template-columns: 1fr;
         gap: 4px;
+    }
+
+    .modal-actions {
+        justify-content: center;
+    }
+
+    .modal-actions .btn-secondary {
+        width: 100%;
+        max-width: 260px;
     }
 }
 
