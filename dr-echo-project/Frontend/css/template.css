@@ -246,7 +246,7 @@ body {
     padding: 40px;
     border-radius: 20px;
     width: 80%;
-    max-width: 800px;
+    max-width: 980px;
     max-height: 80vh;
     overflow-y: auto;
     animation: slideDown 0.3s;
@@ -281,12 +281,75 @@ body {
     margin-bottom: 20px;
 }
 
+
 .preview-body {
-    background: #F5F9FB;
+    background: #E3F2FD;
     padding: 30px;
     border-radius: 10px;
     margin: 20px 0;
     min-height: 200px;
+}
+
+/* Structured preview styles */
+.template-preview {
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    color: #1f2a37;
+}
+
+.preview-header {
+    margin-bottom: 16px;
+}
+
+.preview-header h3 {
+    margin: 0 0 8px;
+    color: #0D5A7D;
+    font-size: 32px;
+    letter-spacing: 0.2px;
+    border-bottom: 2px solid #29B6F6;
+    padding-bottom: 8px;
+}
+
+.preview-subtitle {
+    margin: 0;
+    color: #5c7080;
+    font-size: 14px;
+}
+
+.template-preview .preview-section {
+    background: #ffffff;
+    border: 1px solid #d8e4eb;
+    border-left: 4px solid #0D5A7D;
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+}
+
+.template-preview .preview-section h4 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #0f3550;
+}
+
+.preview-row {
+    display: grid;
+    grid-template-columns: minmax(220px, 34%) 1fr;
+    gap: 10px;
+    padding: 7px 0;
+    border-top: 1px dashed #e7eef2;
+}
+
+.preview-row:first-of-type {
+    border-top: none;
+    padding-top: 0;
+}
+
+.preview-label {
+    font-weight: 700;
+    color: #1a3446;
+}
+
+.preview-value {
+    color: #304a5e;
 }
 
 .modal-actions {
@@ -337,10 +400,20 @@ body {
         min-width: 600px;
     }
 
+
     .modal-content {
         width: 95%;
         margin: 10% auto;
         padding: 20px;
+    }
+
+    .preview-header h3 {
+        font-size: 24px;
+    }
+
+    .preview-row {
+        grid-template-columns: 1fr;
+        gap: 4px;
     }
 }
 
