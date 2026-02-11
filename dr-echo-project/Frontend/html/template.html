@@ -47,10 +47,8 @@
                     <input type="text" id="searchInput" placeholder="🔍 Search by name or specialty" class="search-input">
                     <select id="filterSelect" class="filter-select">
                         <option value="all">All Templates</option>
-                        <option value="ct">CT Scans</option>
+                        <option value="ct">CT</option>
                         <option value="mri">MRI</option>
-                        <option value="xray">X-Ray</option>
-                        <option value="ultrasound">Ultrasound</option>
                     </select>
                 </div>
             </div>
@@ -67,7 +65,7 @@
 <!-- Templates Table Section -->
 <section class="templates-table-section">
     <div class="container">
-        <p class="template-count">Showing <span id="templateCount">3</span> templates</p>
+        <p class="template-count">Showing <span id="templateCount">2</span> templates</p>
 
         <div class="table-container">
             <table class="templates-table">
@@ -104,10 +102,6 @@
                 </tbody>
             </table>
         </div>
-
-        <div class="load-more">
-            <button class="btn-secondary" onclick="loadMoreTemplates()">Show More Templates</button>
-        </div>
     </div>
 </section>
 
@@ -121,6 +115,7 @@
         </div>
         <div class="modal-actions">
             <button class="btn-secondary" onclick="closeModal()">Close</button>
+
         </div>
     </div>
 </div>
